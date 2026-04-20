@@ -1,0 +1,99 @@
+:root {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  color: #202124;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 14px 20px;
+  background: #2f5d91;
+  color: white;
+  border-radius: 8px;
+}
+
+.nav-links a,
+.nav-links button {
+  margin-left: 14px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.auth-card,
+.dashboard-card {
+  background: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+}
+
+.auth-card form,
+.admin-section form {
+  display: grid;
+  gap: 12px;
+}
+
+.auth-card input,
+.admin-section input,
+.admin-section textarea,
+.auth-card textarea {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+button {
+  background: #2f5d91;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #c53030;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+thead {
+  background: #edf2f7;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.admin-section {
+  margin-top: 24px;
+}
